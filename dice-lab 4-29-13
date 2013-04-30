@@ -1,0 +1,27 @@
+public class Testprogram {
+
+public static void main(String args[]) {
+  	
+		Dice Object= new Dice();
+		
+		System.out.println(Object.RollDice(2));
+	
+		}
+}
+public class Dice {
+  	public int RollDice(int NumOfDice) {
+		
+		//number of dices
+		
+		return (1*NumOfDice + (int) (Math.random() * 6*NumOfDice));
+
+
+	}
+
+	static int Roll_1_Dice() {
+		
+		return 1 + (int) (Math.random() * 6);
+	}
+	
+}
+
